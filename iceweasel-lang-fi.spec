@@ -2,12 +2,12 @@
 Summary:	Finnish resources for Iceweasel
 Summary(pl.UTF-8):	Fińskie pliki językowe dla Iceweasel
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.1
-Release:	3
+Version:	3.0.3
+Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	5754f97b3db931afd3bff04ccde08244
+# Source0-md5:	b62bcda72969f51e417dd59bb327d4f6
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
