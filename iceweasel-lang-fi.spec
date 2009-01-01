@@ -1,10 +1,10 @@
 %define		_lang		fi
 Summary:	Finnish resources for Iceweasel
-Summary(pl.UTF-8):	Fińskie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Fińskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	5f3181ec9eba2aa29e256928842b0a47
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Finnish resources for Iceweasel.
 
 %description -l pl.UTF-8
-Fińskie pliki językowe dla Iceweasel.
+Fińskie pliki językowe dla Iceweasela.
 
 %prep
 
